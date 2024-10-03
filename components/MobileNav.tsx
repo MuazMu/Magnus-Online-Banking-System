@@ -13,7 +13,7 @@ import { Link } from "lucide-react"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
 
-const MobileNav = ({user}:MobileNavProps) => {
+const MobileNav = ({user}: MobileNavProps) => {
     const pathname = usePathname();
   return (
 
