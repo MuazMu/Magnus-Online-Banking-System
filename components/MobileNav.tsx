@@ -28,14 +28,15 @@ const MobileNav = ({user}: MobileNavProps) => {
        className="cursor-pointer"
        />
   </SheetTrigger>
-  <SheetContent side="left">
-  <Link href="/" className="mb-12 cursor-pointer flex items-center gap-2">
+  <SheetContent side="left" className="border-none bg-white">
+  <Link href="/" className=" cursor-pointer flex items-center gap-1 px-4">
        <Image 
           src="/icons/logo.svg"
           width={34}
           height={34} alt={'Novus Logo'}   
-          className="size-[24px] max-xl:size-14"   />
-          <h1 className="sidebar-logo">Novus</h1>         
+      />
+          <h1 className="text-26 font-ibm-plex-serif 
+          font-bold text-black-1">Novus</h1>         
       </Link>
 
       {sidebarLinks.map((item)=>{
