@@ -18,28 +18,28 @@ const MobileNav = ({user}: MobileNavProps) => {
   return (
 
    <section className="w-full max-w-[264px]">
-    <Sheet>
-  <SheetTrigger>
-    <Image 
+     <Sheet>
+      <SheetTrigger>
+       <Image 
        src="/icons/hamburger.svg"
        width={30}
        height={30}
        alt="menu"
        className="cursor-pointer"
        />
-  </SheetTrigger>
-  <SheetContent side="left" className="border-none bg-white">
-  <Link href="/" className=" cursor-pointer flex items-center gap-1 px-4">
-       <Image 
-          src="/icons/logo.svg"
-          width={34}
-          height={34} alt={'Novus Logo'}   
-      />
+     </SheetTrigger>
+    <SheetContent side="left" className="border-none bg-white">
+       <Link href="/" className=" cursor-pointer flex items-center gap-1 px-4">
+          <Image 
+            src="/icons/logo.svg"
+            width={34}
+            height={34} alt={'Novus Logo'}   
+       />
           <h1 className="text-26 font-ibm-plex-serif 
           font-bold text-black-1">Novus</h1>         
-      </Link>
+       </Link>
 
-      {sidebarLinks.map((item)=>{
+        {sidebarLinks.map((item)=>{
         
         const isActive =
         pathname === item.route || pathname.startsWith(`${item.route}/`)
