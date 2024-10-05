@@ -38,7 +38,7 @@ const MobileNav = ({ user }:MobileNavProps) => {
                 height={34} 
                 alt={'Novus Logo'}   
                  />
-            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Novus</h1>         
+            <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Magnus</h1>         
         </Link>
         <div className="mobilenav-sheet">
             <SheetClose asChild>

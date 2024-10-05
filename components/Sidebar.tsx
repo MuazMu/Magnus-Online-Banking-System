@@ -21,8 +21,8 @@ const Sidebar = ({ user }: SiderbarProps ) => {
          width={34}
          height={34} alt={'Novus Logo'}   
          className="size-[24px] max-xl:size-14"   />
-         
-          <h1 className="sidebar-logo">Novus</h1>         
+
+          <h1 className="sidebar-logo">Magnus</h1>         
       </Link>
       {sidebarLinks.map((item)=>  
       {
