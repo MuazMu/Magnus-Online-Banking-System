@@ -11,10 +11,11 @@ import {
 } from "@/components/ui/sheet"
 import { sidebarLinks } from "@/constants"
 import { cn } from "@/lib/utils"
-import { Link } from "lucide-react"
+import Link from 'next/link'
 
 import Image from "next/image"
 import { usePathname } from "next/navigation"
+import next from "next"
 
 const MobileNav = ({ user }:MobileNavProps) => {
   const pathname = usePathname();
